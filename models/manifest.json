@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "models": {
+    "3ds.glb": {
+      "sha256": "f092ad25f87b3c3205170bebd355f5ba2f80550d9835e51ca16786ffb0dfeaf2",
+      "size": 1406476
+    },
+    "disc.glb": {
+      "sha256": "91f73d77f0fd75ad18782e4a3c2f9db372ef3b443764feb43a6e80982d0ccecd",
+      "size": 514120
+    },
+    "ds.glb": {
+      "sha256": "bb36e0188f72554c64269463d391c6fa0a04c5302d951c540aa131e8c69b3ba7",
+      "size": 1242936
+    },
+    "gb.glb": {
+      "sha256": "ccb3abaedd5fe14dc75e2ce9136a3785ec552549c83ecea11b0d26496c148936",
+      "size": 2440744
+    },
+    "gba.glb": {
+      "sha256": "dad8725dd884d7254741b3a662358617d6bfc00a7b870365b2e3ebac51e2ed8f",
+      "size": 2358420
+    },
+    "nes.glb": {
+      "sha256": "95e098081142eaac331d5046d66906f2d422b738ef8944574eedc1bf07f014de",
+      "size": 1599288
+    },
+    "n64.glb": {
+      "sha256": "183f6462308806742335055e272f46e9ad440aebe6f0b02db429f70e3edc418d",
+      "size": 4112544
+    },
+    "psp.glb": {
+      "sha256": "e1035641671794374648d65049fa813ab0e93a2373caa4a69f9939153becc3be",
+      "size": 612416
+    },
+    "snes.glb": {
+      "sha256": "fc5496a6c5bce7d89ea197eb75cfe9197730b50f4c373c0ef06bf3b675d74f3b",
+      "size": 2816596
+    },
+    "switch.glb": {
+      "sha256": "d480b7474f494b964593f0b6b1588aa676ddf2b465794f1ee50fc43718e06252",
+      "size": 496904
+    }
+  }
+}
