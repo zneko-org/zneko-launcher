@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "models": {
+    "3ds.glb": {
+      "sha256": "f092ad25f87b3c3205170bebd355f5ba2f80550d9835e51ca16786ffb0dfeaf2",
+      "size": 1406476
+    },
+    "disc.glb": {
+      "sha256": "91f73d77f0fd75ad18782e4a3c2f9db372ef3b443764feb43a6e80982d0ccecd",
+      "size": 514120
+    },
+    "ds.glb": {
+      "sha256": "bb36e0188f72554c64269463d391c6fa0a04c5302d951c540aa131e8c69b3ba7",
+      "size": 1242936
+    },
+    "gb.glb": {
+      "sha256": "ccb3abaedd5fe14dc75e2ce9136a3785ec552549c83ecea11b0d26496c148936",
+      "size": 2440744
+    },
+    "gba.glb": {
+      "sha256": "dad8725dd884d7254741b3a662358617d6bfc00a7b870365b2e3ebac51e2ed8f",
+      "size": 2358420
+    },
+    "md.glb": {
+      "sha256": "d368c78376c8bbf4e839e89cf42396870559e0c959a6e4afa3e7b69252f88592",
+      "size": 1782872
+    },
+    "nes.glb": {
+      "sha256": "95e098081142eaac331d5046d66906f2d422b738ef8944574eedc1bf07f014de",
+      "size": 1599288
+    },
+    "n64.glb": {
+      "sha256": "183f6462308806742335055e272f46e9ad440aebe6f0b02db429f70e3edc418d",
+      "size": 4112544
+    },
+    "psp.glb": {
+      "sha256": "e1035641671794374648d65049fa813ab0e93a2373caa4a69f9939153becc3be",
+      "size": 612416
+    },
+    "snes.glb": {
+      "sha256": "1fdcaee2a9f1f3850a1beb16568201fed9b4eab1b77e99c368301824ea5a7b61",
+      "size": 737148
+    },
+    "snes-pal.glb": {
+      "sha256": "df691ee466e68c53b83266ed90744baa007839e201b6ecdbd64676eacea75efc",
+      "size": 3472624
+    },
+    "switch.glb": {
+      "sha256": "d480b7474f494b964593f0b6b1588aa676ddf2b465794f1ee50fc43718e06252",
+      "size": 496904
+    },
+    "gbc.glb": {
+      "sha256": "0e8d45f9ab5a75b98c12b17144b01c9e044de896c7df10097031eff2a104692b",
+      "size": 327732
+    },
+    "gbc-crystal.glb": {
+      "sha256": "d436e51a02b9b246b3506f42706f4dc14e61fc901b86ec7ad1a9e87b98a847e7",
+      "size": 649084
+    },
+    "sms.glb": {
+      "sha256": "c82bb72e46793b005cc29ad17bb144bfad4d99636259d9aa2cb2c22a49a03c5d",
+      "size": 216324
+    },
+    "gg.glb": {
+      "sha256": "2ff592d819694c3c06556614c8c886647115e88f9990fcbfbe811244785fc503",
+      "size": 293144
+    },
+    "tg16.glb": {
+      "sha256": "44ecfa6248669497ab62d409c011cc6c3c8d012c449efefa5323a3bf028819f7",
+      "size": 36940
+    }
+  }
+}
