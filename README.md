@@ -1,0 +1,180 @@
+<div align="center">
+
+# ZNeko Launcher
+
+<img src="zneko-launcher-logo.png" alt="ZNeko Logo"/>
+
+**A simple, powerful way to manage, discover, and play games across Android devices.**
+
+[![Platform](https://img.shields.io/badge/platform-Android-green.svg)](https://www.android.com/)
+[![Latest Release](https://img.shields.io/github/v/release/zneko-org/zneko-launcher?label=latest&color=7c3aed)](https://github.com/zneko-org/zneko-launcher/releases)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-ff5e5b?logo=ko-fi&logoColor=white)](https://ko-fi.com/gustavokei)
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.zneko.launcher"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="55" /></a>
+  <a href="https://github.com/zneko-org/zneko-launcher/releases"><img src="https://raw.githubusercontent.com/rubenpgrady/get-it-on-github/refs/heads/main/get-it-on-github.png" alt="Get it on GitHub" height="55" /></a>
+  <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium%3A%2F%2Fapp%2F%7B%22id%22%3A%22com.zneko.launcher%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fzneko-org%2Fzneko-launcher%22%2C%22author%22%3A%22zneko-org%22%2C%22name%22%3A%22ZNeko%20Launcher%22%7D"><img src="https://raw.githubusercontent.com/ImranR98/Obtainium/refs/heads/main/assets/graphics/badge_obtainium.png" alt="Get it on Obtainium" height="55" /></a>
+</p>
+
+[ZNeko Link](https://github.com/zneko-org/zneko-link) • [S3 Setup](S3_SETUP.md) • [Folder Icons](FOLDER_ICONS.md)
+
+[What is ZNeko Launcher?](#what-is-zneko-launcher) • [Preview](#preview) • [Features](#features) • [Performance and Compatibility](#performance-and-compatibility) • [Acknowledgements](#acknowledgements)
+
+</div>
+
+---
+
+## What is ZNeko Launcher?
+
+ZNeko Launcher is an emulation frontend for Android devices, supporting both standard and dual-screen systems, with touch and gamepad input.
+
+Android has never had more frontend options, but many of them have also become increasingly difficult to approach. Complex configuration, convoluted workflows, and inconsistent behavior can make it hard to get everything working the way you want.
+
+ZNeko takes the opposite approach. It is quick to set up and stays out of your way, while still carrying the depth you would expect from a much heavier frontend.
+
+Its library and home screen design were influenced by **[iiSU](https://iisu.network)**, and Physical View follows a concept introduced by **[Socket](https://depmots.com/socket)**.
+
+And it is free with no ads. [Donations](https://ko-fi.com/gustavokei) are welcome, but they do not buy anything. Everyone gets the same launcher.
+
+---
+
+## Preview
+
+<p align="center">
+  <img src="preview-air-mini-1.png" alt="Preview Air Mini 1" width="48%">
+  <img src="preview-air-mini-2.png" alt="Preview Air Mini 2" width="48%">
+</p>
+
+<p align="center">
+  <img src="preview-thor-1.png" alt="Preview Thor 1" width="48%">
+  <img src="preview-thor-2.png" alt="Preview Thor 2" width="48%">
+</p>
+
+---
+
+## Features
+
+### Home
+
+- **Widgets** - Create your own dynamic home with a variety of custom widgets.
+
+- **Customize with ease** - Pick media without having to leave the app.
+
+### Library
+
+- **Automatic and flexible**
+  - Most platforms are automatically detected.
+  - Adding a new platform requires no tedious setup: simply open a folder or launch a game and ZNeko will guide you through the process.
+  - Supports both parent folders (e.g., a root ROMs folder with subfolders like ROMs/gba) and standalone platform folders (e.g., GBA).
+  - You're free to name your folders the way you want.
+  - Global search, "All Games" and "Favorites" folders, and more.
+
+- **Emulator Support**
+  - Supports most major emulators available on Android.
+  - **Vita3K Emulator Integration** - Users can point ZNeko to the same path configured in `Settings > Emulator > Emulated System Storage Folder` as a standalone folder. Games will then be detected automatically, without the need to create `.psvita` or `.dpt` shortcuts (these shortcut formats are also supported).
+  - If the emulator is not found by ZNeko, you can request its implementation [here](https://github.com/zneko-org/zneko-launcher/issues) or add it manually (and even share your `assets/custom-emulators.json` configurations with other users).
+
+- **Collections** - Create collections of games and/or Android apps. ZNeko also supports **app shortcuts**, allowing you to add games from apps like **GameNative, GameHub, and GameHub Lite** to your library folders and home widgets (ZNeko must be set as the default launcher).
+
+- **Multiple View Modes** - Switch between Vertical, Horizontal, Physical, and Standard view modes.
+  - In Physical View, give each game's cartridge its own look: pick a preset color or set any color and transparency, and add glitter to the plastic.
+
+- **Multi-Disc Support** - M3U playlists and "(Disc N)" naming conventions are automatically handled.
+
+- **Detailed Game Information** - See and customize detailed information about each game, including: synopsis, screenshots, videos, developers, publishers, ratings, release dates, and more.
+
+- **Playtime tracking** - Track your playtime for each game.
+
+### Assets Catalog
+
+The Assets Catalog is ZNeko's work-in-progress home for theme packs: community artwork you can install in one step to restyle the launcher.
+
+For now, folder icon packs are available from [NeoAssets](https://neoassets.dev/), [SteamGridDB](https://www.steamgriddb.com), and [iiDB](https://iidb.iisu.network/). SteamGridDB and iiDB use your personal API key.
+
+* Discover up to eight featured packs, with newly discovered packs appearing first after refresh.
+* Search within a provider's catalog and see each pack's creator.
+* See how many of your folders a pack covers before installing it.
+* Turn an installed pack on or off for each theme, or uninstall it.
+* Browse and apply downloaded packs offline using their local files.
+
+Want to publish your own pack? See [Folder Icons](FOLDER_ICONS.md) for how packs are built.
+
+### RetroAchievements
+
+ZNeko offers deep RetroAchievements integration, bringing detailed achievement data and account features directly into your game library.
+
+* View achievements for games stored on your device or linked to your **RetroAchievements account**.
+* View featured weekly and monthly achievements.
+* Filter achievements and games by platform (**Arcade, Dreamcast, Game Boy, and more**).
+* Sort by **recently unlocked, completion rate, or alphabetical order**.
+* Browse **achievement subsets**.
+* View detailed RetroAchievements metadata, including **achievement types** (Missable, Progression, Win Condition), **Hardcore vs. Casual mode**, unlock dates, unlock rates, and more.
+* Track your progress and explore achievement data without leaving the app.
+
+### ZNeko Link + S3-Compatible Storage
+
+Both integrations allow you to transfer games, saves, or any folders to and from other devices, without having to set up a full server.
+
+Games stored on Link or S3 are treated as local library entries, allowing you to see their artwork, metadata, achievements, and more without transferring them first.
+
+**ZNeko Link** is a companion desktop application for Windows, macOS and Linux (x86_64 and ARM). Check out the [ZNeko Link repository](https://github.com/zneko-org/zneko-link) for downloads, setup instructions, and additional information.
+
+**S3 storage** is self-hosted/user-provided; see [S3 Setup](S3_SETUP.md) for setup details.
+
+### RomM (Beta)
+
+ZNeko connects to your own [RomM](https://romm.app) server (RomM 5.4 or newer).
+
+* **No password on the handheld** - ZNeko shows a short code, and you approve it in RomM from your phone, computer, or the device's own browser.
+* **Your RomM library in ZNeko** - Games on your RomM server appear in your library like local ones, and you can download any of them to the device from there.
+* **RomM Saves** - Pair each RomM platform with the folder your emulator keeps its saves in, then export that folder's saves to RomM or import RomM's back into it, with each save matched to its game. Folder-based saves (such as Switch, PSP, and 3DS) are supported for games RomM identifies.
+
+Set it up in `Settings > Link, S3 & RomM`.
+
+
+## Performance and Compatibility
+
+ZNeko Launcher is designed to run well across a broad range of Android hardware, including budget handhelds. The minimum supported version is Android 7.0 (Nougat), though active testing is focused on Android 10 and newer.
+
+
+### Minimum Specifications
+- **OS:** Android 7.0
+- **SoC:** Allwinner A133P or equivalent
+- **RAM:** 2 GB
+### Recommended Specifications
+- **OS:** Android 10 or newer
+- **SoC:** Unisoc T618 / MediaTek Helio G90T or better
+- **RAM:** 3 GB or more
+
+---
+
+## Acknowledgements
+
+- **[RetroAchievements](https://retroachievements.org)**  
+  Provides the achievement sets, player progress, and badge artwork shown in the library and the achievements hub, through its official Web API using your own account key.
+
+- **[iiDB](https://iidb.iisu.network/)**<br>
+  Supplies community-contributed game artwork, screenshots, soundbites, and curated folder icons through its authenticated developer API. Its website picker also remains available. Those assets remain the property of their respective owners.
+
+- **[SteamGridDB](https://www.steamgriddb.com)** & **[ScreenScraper.fr](https://www.screenscraper.fr)**  
+  Provide community-made game artwork and retro gaming metadata used by ZNeko's artwork search and scraping features.
+
+- **[NeoAssets](https://neoassets.dev/app/home)**<br>
+  Provides folder icon packs in Assets Catalog. Their original creators remain credited in the catalog.
+
+- **[RomM](https://romm.app)**  
+  The self-hosted ROM manager ZNeko connects to, through its official API, to list and download your games and move your saves.
+
+- **[HowLongToBeat](https://howlongtobeat.com)**  
+  The source of the completion times shown on game details. ZNeko does not crawl the site. It imports a publicly available completion-time dataset.
+
+- **[Lucide Icons](https://lucide.dev)**  
+  Icons used throughout the UI. ISC License (see [lucide.dev/license](https://lucide.dev/license)).
+
+- **"ticology" sound pack by granfdad**  
+  Default UI sound effects used in ZNeko Launcher (licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); see [permission confirmation](sounds-attr.png)).
+
+- **Physical media 3D models**  
+  Physical View downloads credited, freely licensed cartridge and disc models hosted in this repository. See the complete [model attribution and license list](models/ATTRIBUTION.md).
+
+ZNeko's implementations were developed independently. Content used by the launcher includes achievement data from RetroAchievements, artwork and metadata from SteamGridDB and ScreenScraper.fr, artwork and soundbites from iiDB, folder icon packs from NeoAssets, games and saves from your own RomM server, an offline HowLongToBeat completion-time dataset, the permissively licensed Lucide icons, the CC BY 4.0 licensed navigation sounds, and the [credited physical-media models](models/ATTRIBUTION.md) downloaded by Physical View.
