@@ -127,6 +127,7 @@ ZNeko connects to your own [RomM](https://romm.app) server (RomM 5.4 or newer).
 
 * **No password on the handheld** - ZNeko shows a short code, and you approve it in RomM from your phone, computer, or the device's own browser.
 * **Your RomM library in ZNeko** - Games on your RomM server appear in your library like local ones, and you can download any of them to the device from there.
+* **Scrape from RomM** - Connected RomM servers are checked first by default for metadata, covers, artwork, screenshots, and video previews before falling back to other scrape sources, and RomM is skipped cleanly when disconnected.
 * **RomM Saves** - Pair each RomM platform with the folder your emulator keeps its saves in, then export that folder's saves to RomM or import RomM's back into it, with each save matched to its game. Folder-based saves (such as Switch, PSP, and 3DS) are supported for games RomM identifies.
 
 Set it up in `Settings > Link, S3 & RomM`.
@@ -163,7 +164,7 @@ ZNeko Launcher is designed to run well across a broad range of Android hardware,
   Provides folder icon packs in Assets Catalog. Their original creators remain credited in the catalog.
 
 - **[RomM](https://romm.app)**  
-  The self-hosted ROM manager ZNeko connects to, through its official API, to list and download your games and move your saves.
+  The self-hosted ROM manager ZNeko connects to, through its official API, to list, download, and scrape your games and move your saves.
 
 - **[HowLongToBeat](https://howlongtobeat.com)**  
   The source of the completion times shown on game details. ZNeko does not crawl the site. It imports a publicly available completion-time dataset.

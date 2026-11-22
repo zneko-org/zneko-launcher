@@ -1,6 +1,6 @@
 # Privacy Policy for ZNeko Launcher
 
-**Last updated:** November 20, 2026
+**Last updated:** November 22, 2026
 
 ZNeko Launcher is a local-first Android frontend. It does not include advertising or analytics SDKs, and the ZNeko developers do not operate an account system that collects your personal information.
 
@@ -67,6 +67,7 @@ When connected, ZNeko communicates directly with your RomM server over HTTP or H
 
 - Retrieve the list of games and platforms available to your account, cached locally so your library can be displayed without querying the server on every launch. This cached list holds game names, file IDs, and sizes only, and is discarded when you disconnect.
 - Download games you choose to transfer to your device.
+- Retrieve game metadata, artwork, screenshots, and video previews from your RomM server for matching games in your local library when scraping with RomM enabled as a source.
 - List, export, and import game save files and folders between your device and RomM when using RomM Saves.
 
 Requests travel directly between your device and your RomM server using your server's configured address. You can revoke the device token at any time in RomM's device settings. Disconnecting in ZNeko deletes the token from this device but does not revoke it on the server.
